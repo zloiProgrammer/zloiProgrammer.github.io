@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <table border="1">
+            <tr>
+                <td rowspan="2">First</td>
+                <td colspan="2">Second</td>
+            </tr>
+            <tr>
+                <td>Third</td>
+                <td>Fourth</td>
+            </tr>
+        </table>
+        <form name="search" action="/">
+            <input type="text" name="t" value="goit"/>
+            <input type="submit" value="Search"/>
+        </form>
+        <form action="/action">
+            <input type="text" name="Login" />
+            <input type="password" name="Password" />
+            <input type="submit"/>
+        </form>
+        <form action="#">  Имя:
+            <input type="text" name="firstname" />
+            <br/>
+            Фамилия:
+            <input type="text" name="lastname" />
+            <br/> 
+            Пароль:
+            <input type="password" name="pwd" />
+            <br/>
+            <input type="radio" name="sex" value="male" />Мужской
+            <input type="radio" name="sex" value="female" /> Женский
+            <br/>
+            <input type="checkbox" name="vehicle" value="bike" /> У меня есть мотоцикл
+            <br/>
+            <input type="checkbox" name="vehicle" value="car" /> У меня есть автомобиль
+            <br/>  <br/>
+            <input type="submit" value="Отправить" />
+        </form>
+        <input type="text" name="поле" value="значение"/>
+        <textarea rows="4" cols="20" name="mytext">
+            Тут можно расположить большой 
+            многострочный текст…
+        </textarea>
+        <select name="food" size="3" multiple="multiple">
+            <option value="pie">Пирог</option>
+            <option value="bread" selected="selected">Хлеб</option>
+            <option value="cookie" label="Печенье"></option>
+        </select>
+        <select>
+            <optgroup label="Шведские авто">
+                <option value="volvo">Вольво</option>
+                <option value="saab">Сааб</option>
+            </optgroup>
+            <optgroup label="Немецкие авто">
+                <option value="vw">Фольксваген</option>
+                <option value="audi">Ауди</option>
+            </optgroup>
+        </select>
+        <form action="handler.php">
+            <p><b>Lorem ipsum dolor sit amet...</b></p>
+            <p><input type="checkbox" id="check1"><label for="check1">Lorem</label><Br>
+                <input type="checkbox" id="check2"><label for="check2">Ipsum</label><Br>
+                <input type="checkbox" id="check3"><label for="check3">Dolor</label><Br>
+                <input type="checkbox" id="check4"><label for="check4">Sit amet</label></p>
+        </form>
+    </body>
+</html>

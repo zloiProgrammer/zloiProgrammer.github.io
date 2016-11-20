@@ -1,0 +1,65 @@
+IDE:
+
+https://www.jetbrains.com/webstorm/
+
+http://brackets.io/
+
+http://www.sublimetext.com/
+
+https://atom.io/
+
+https://codeanywhere.com/editor/ - облачная IDE'шка (если быть совсем точным, то это целая виртуальная машина), идеальная вещь для тех кому нужно совмещать работу и учебу. Позволяет не быть привязанным/привязанной к одной машине. Ваши проекты доступны откуда угодно, через любой браузер, и с ними вполне удобно работать он-лайн. Ноут за собой таскать не нужно. С одного места встали, за другое сели, продолжаем работать с того же места. Там уже установлен гит. Бесплатной подписки вполне с головой хватает для целей обучения на этом курсе. Минус один - там надо чуток поразбираться что к чему :о)
+
+Гитхаб и туториалы по гиту.
+
+https://github.com
+
+https://guides.github.com/
+
+https://www.atlassian.com/git/tutorials/
+
+http://git-scm.com/docs/gittutorial
+
+http://git-scm.com/book/ru/v2
+
+https://www.codeschool.com/courses/try-git
+
+Теория:
+
+http://htmlbook.ru/
+
+https://developer.mozilla.org/
+
+Валидатор и очень полезный сайт для проверки функционирования тех или иных вещей в разных браузерах:
+
+https://validator.w3.org/
+
+http://caniuse.com/
+
+Онлайн уроки/туториалы:
+
+https://www.codecademy.com
+
+http://html.net/
+
+https://htmlacademy.ru/
+
+http://learnlayout.com/
+
+Сайты где можно выложить код:
+
+http://codepen.io/
+
+https://jsbin.com/
+
+https://jsfiddle.net/
+
+http://plnkr.co/
+
+Есть проблема? Формулируем вопрос и скорее всего попадаем на этот сайт:
+
+http://stackoverflow.com/
+
+БЭМ методология
+
+https://ru.bem.info/
