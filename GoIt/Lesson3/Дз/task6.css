@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23.11.2016, 14:33:09
+    Author     : Эль'ич
+*/
+/*
+	по состоянию checked включать/выключать 
+	соответствующие элементы
+	
+*/
+form
+{
+	font: 11px Tahoma;
+}
+
+/* Инпуты и лейблы */
+
+input
+{
+	display: none;
+}
+
+label
+{
+	display: block;
+	float: left;
+	margin-right: 39px;
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+label:last-of-type
+{
+	margin-right: 31px;
+}
+
+label:hover
+{
+	text-decoration: none;
+}
+
+label[for="red"]
+{
+	color: #ff0000;
+}
+
+label[for="green"]
+{
+	color: #008a00;
+}
+
+label[for="blue"]
+{
+	color: #4800ff;
+}
+
+#red ~ .red,
+#green ~ .green,
+#blue ~ .blue
+{
+	visibility: hidden;
+}
+
+#red:checked ~ .red,
+#green:checked ~ .green,
+#blue:checked ~ .blue
+{
+	visibility: visible;		
+}
+
+/* Кнопки */
+span
+{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 5px;
+	line-height: 16px;
+	height: 18px;
+	color: #fff;
+	border-radius: 6px;
+}
+
+span.red
+{
+	background-color: #ff0000;
+}
+
+span.green
+{
+	background-color: #008a00;
+}
+
+span.blue
+{
+	background-color: #4800ff;
+}
