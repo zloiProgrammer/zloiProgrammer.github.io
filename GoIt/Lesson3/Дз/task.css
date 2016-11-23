@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23.11.2016, 12:01:05
+    Author     : Эль'ич
+*/
+h1, h2 {
+  color: orange;
+}
+.fruits-list {
+  color: green;
+}
+h1 { 
+  text-align: right;
+}
+.vegetables-list{
+  color: red;
+}
+#warehouse h2 {
+  color: blue;
+}
+#allotment .fruits-list {
+  color:gray;
+}
+p:first-letter {
+	color: red; font-size: 30px;
+}
+em{
+  background-color: green; color: white;
+}
+.students-table tbody {
+  color: orange;
+}
+.students-table tbody td:nth-child(1n+2){
+  background-color: green; color: white;
+}
+div li:nth-child(1n){
+  font-weight: bold;
+}
+.students-table thead{
+  font-weight: bold;
+}
+
