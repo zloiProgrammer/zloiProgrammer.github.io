@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24.11.2016, 14:53:54
+    Author     : Эль'ич
+*/
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700);
+body {margin:0;}
+h2 {
+    font-family: monospace;
+    color: #606060;
+}
+ul {
+    list-style: none; 
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    font-family: 'Economica', serif;
+    transition: .5s linear;
+}
+i {
+    margin-right: 10px;
+}
+nav {
+    display: block;
+    width: 900px;
+    margin: 0 auto 30px;
+}
+ul {
+    background: #d959ea;
+    overflow: hidden;
+    padding: 0;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    padding: 1em;
+    border-right: 1px solid #ADC0CE;
+    background: rgba(173, 192, 206, .3);
+    color: #29838C;
+}
+a:hover {
+    background: #9f21af;
+    color:white;
+}
+.mnu_right{
+    margin-left: 90px;
+}
